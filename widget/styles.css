@@ -1,0 +1,96 @@
+:root {
+    --done-color: rgba(60, 148, 131, 255);
+    --current-color: rgba(61, 155, 188, 255);
+    --todo-color: rgba(224, 87, 90, 255);
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 55, 64, 255);
+    position: relative;
+  }
+  
+  #rectangle-blanc {
+    position: absolute;
+    background-color: rgba(61,155,188,255);
+  }
+  
+  .carre-blanc {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgba(60,148,131,255);
+  }
+  
+  .texte-carre {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color: rgba(60,148,131,255);
+  }
+  
+  #carre1 {
+    border-color: var(--done-color);
+  }
+  
+  #carre1 .texte-carre {
+    color: var(--done-color);
+  }
+  
+  #carre2 {
+    border-color: var(--current-color);
+  }
+  
+  #carre2 .texte-carre {
+    color: var(--current-color);
+  }
+  
+  #carre3 {
+    border-color: var(--todo-color);
+  }
+  
+  #carre3 .texte-carre {
+    color: var(--todo-color);
+  }
+  
+  #carre4 {
+    border-color: var(--todo-color);
+  }
+  
+  #carre4 .texte-carre {
+    color: var(--todo-color);
+  }
+  
+  #carre5 {
+    border-color: var(--todo-color);
+  }
+  
+  #carre5 .texte-carre {
+    color: var(--todo-color);
+  }
+  
+  #carre6 {
+    border-color: var(--todo-color);
+  }
+  
+  #carre6 .texte-carre {
+    color: var(--todo-color);
+  }
+  
+  #carre7 {
+    border-color: var(--todo-color);
+  }
+  
+  #carre7 .texte-carre {
+    color: var(--todo-color);
+  }
